@@ -316,7 +316,8 @@ const ReplyBox = ({ conversationId, inboxId, conversationDetails, enableReplyBut
               sm
               color={colors.primaryColorDark}
               style={styles.emailFieldToggleButton}
-              onPress={toggleCcBccInputs}>
+              onPress={toggleCcBccInputs}
+            >
               {'Cc/Bcc'}
             </Text>
           )}
@@ -365,7 +366,8 @@ const ReplyBox = ({ conversationId, inboxId, conversationDetails, enableReplyBut
             <Pressable
               style={[styles.sendButtonView, sendMessageButtonWrapStyles()]}
               disabled={!enableReplyBox}
-              onPress={onNewMessageAdd}>
+              onPress={onNewMessageAdd}
+            >
               <Icon
                 icon="send-outline"
                 style={styles.sendButton}

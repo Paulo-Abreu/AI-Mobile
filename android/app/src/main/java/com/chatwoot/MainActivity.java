@@ -1,4 +1,4 @@
-package com.chatwoot.app;
+package com.nextcomm.atendimentointegrado;
 
 import android.os.Bundle;
 

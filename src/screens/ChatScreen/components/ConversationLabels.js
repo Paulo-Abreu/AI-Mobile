@@ -210,7 +210,8 @@ const ConversationLabels = ({ colors, conversationDetails }) => {
               <Pressable
                 style={styles.bottomSheetItem}
                 key={item.id}
-                onPress={() => onClickRemoveLabel(item)}>
+                onPress={() => onClickRemoveLabel(item)}
+              >
                 <View style={styles.labelItem}>
                   <View
                     style={[
@@ -246,7 +247,8 @@ const ConversationLabels = ({ colors, conversationDetails }) => {
             <Pressable
               style={styles.bottomSheetItem}
               key={item.id}
-              onPress={() => onClickAddLabel(item)}>
+              onPress={() => onClickAddLabel(item)}
+            >
               <View style={styles.labelItem}>
                 <View
                   style={[

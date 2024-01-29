@@ -121,21 +121,24 @@ const ChatHeader = ({
               {openConversation && (
                 <Pressable
                   style={styles.statusView}
-                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.RESOLVED)}>
+                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.RESOLVED)}
+                >
                   <Icon icon="checkmark-outline" color={colors.successColor} size={24} />
                 </Pressable>
               )}
               {resolvedConversation && (
                 <Pressable
                   style={styles.statusView}
-                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}>
+                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}
+                >
                   <Icon icon="arrow-redo-outline" color={colors.warningColor} size={24} />
                 </Pressable>
               )}
               {snoozedConversation && (
                 <Pressable
                   style={styles.statusView}
-                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}>
+                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}
+                >
                   <Icon
                     icon="person-arrow-back-outline"
                     color={colors.primaryColorDarker}
@@ -146,7 +149,8 @@ const ChatHeader = ({
               {pendingConversation && (
                 <Pressable
                   style={styles.statusView}
-                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}>
+                  onPress={() => toggleStatusForConversations(CONVERSATION_STATUS.OPEN)}
+                >
                   <Icon
                     icon="person-arrow-back-outline"
                     color={colors.primaryColorDarker}

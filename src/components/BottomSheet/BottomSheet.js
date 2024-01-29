@@ -60,7 +60,8 @@ const BottomSheetModal = ({
       keyboardBlurBehavior="restore"
       android_keyboardInputMode="adjustResize"
       enablePanDownToClose
-      onDismiss={onDismiss}>
+      onDismiss={onDismiss}
+    >
       {showHeader && (
         <BottomSheetModalHeader title={headerTitle} closeModal={closeFilter} colors={colors} />
       )}

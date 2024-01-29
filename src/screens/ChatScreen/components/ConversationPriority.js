@@ -114,7 +114,8 @@ const SnoozeConversation = ({ colors, conversationId, activePriority, closeModal
               activePriority === item.id && styles.bottomSheetItemActive,
             ]}
             key={item.id}
-            onPress={() => changePriority(item.id)}>
+            onPress={() => changePriority(item.id)}
+          >
             <View style={styles.itemView}>
               <SvgXml xml={item.icon} width={22} height={22} />
               <Text sm medium color={colors.textDark} style={styles.itemText}>

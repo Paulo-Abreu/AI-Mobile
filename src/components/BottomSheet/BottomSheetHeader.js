@@ -58,7 +58,8 @@ const BottomSheetModalHeader = ({ title, closeModal, colors }) => {
               borderColor: colors.borderLight,
             },
             styles.closeButtonView,
-          ]}>
+          ]}
+        >
           <Icon icon="dismiss-outline" color={colors.textDark} size={16} />
         </View>
       </Pressable>

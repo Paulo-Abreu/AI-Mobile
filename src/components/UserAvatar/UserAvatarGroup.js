@@ -18,11 +18,8 @@ const UserAvatarGroup = ({ users, size, showMoreText, moreText, length, fontSize
     return (
       <View
         key={index}
-        style={[
-          styles.avatarContainer,
-          styles.bubbleBorder,
-          { width: size + 1, height: size + 1 },
-        ]}>
+        style={[styles.avatarContainer, styles.bubbleBorder, { width: size + 1, height: size + 1 }]}
+      >
         <UserAvatar thumbnail={thumbnail} userName={name} size={size} fontSize={fontSize} />
       </View>
     );

@@ -65,7 +65,8 @@ const ImageScreen = ({ navigation, route }) => {
           cropWidth={deviceWidth}
           cropHeight={deviceHeight}
           imageWidth={deviceWidth}
-          imageHeight={deviceHeight}>
+          imageHeight={deviceHeight}
+        >
           <FastImage
             style={styles.bannerImage}
             source={{

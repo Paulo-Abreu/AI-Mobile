@@ -71,7 +71,8 @@ const Badge = ({ source, size, badgeStyle, activeBadgeColor, activeCircle }) => 
           right: size / 32,
           backgroundColor: colors.colorWhite,
         },
-      ]}>
+      ]}
+    >
       <FastImage
         style={[
           badgeStyle,
@@ -164,7 +165,8 @@ const UserAvatar = ({
             height: size,
             borderRadius: size,
           },
-        ]}>
+        ]}
+      >
         <Text medium color={colors.primaryColorDark} style={{ fontSize: fontSize }}>
           {getUserInitial({ userName })}
         </Text>

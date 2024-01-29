@@ -417,7 +417,8 @@ const ChatMessageItemComponent = ({ conversation, type, message, created_at, sho
               backgroundColor: colors.primaryColor,
               color: colors.blockColor,
             },
-          }}>
+          }}
+        >
           {message.content}
         </Markdown>
       );
@@ -447,7 +448,8 @@ const ChatMessageItemComponent = ({ conversation, type, message, created_at, sho
           messageViewStyle,
           message.private && styles.privateMessageContainer,
           !isEmailChannel ? styles.messageBody : styles.emailMessageBody,
-        ]}>
+        ]}
+      >
         {hasAnyEmailValues() ? <View style={styles.mailHeadWrap}>{emailHeader}</View> : null}
         {isMessageContentExist && <MessageContent />}
 

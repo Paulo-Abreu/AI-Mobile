@@ -177,7 +177,8 @@ const ChatAttachmentItemComponent = ({ type, attachments, showAttachment, messag
               style={[
                 type === 'outgoing' ? styles.imageViewRight : styles.imageViewLeft,
                 isPrivate && styles.privateMessageContainer,
-              ]}>
+              ]}
+            >
               <FastImage
                 style={styles.image}
                 source={{
@@ -195,7 +196,8 @@ const ChatAttachmentItemComponent = ({ type, attachments, showAttachment, messag
               style={[
                 type === 'outgoing' ? styles.fileViewRight : styles.fileViewLeft,
                 styles.fileView,
-              ]}>
+              ]}
+            >
               <View style={styles.fileAttachmentContainer}>
                 <View style={styles.fileAttachmentView}>
                   <View style={styles.attachmentIconView}>
@@ -210,7 +212,8 @@ const ChatAttachmentItemComponent = ({ type, attachments, showAttachment, messag
                       sm
                       medium
                       color={attachmentNameTextColor()}
-                      style={styles.filenameTextStyle}>
+                      style={styles.filenameTextStyle}
+                    >
                       {fileNameToDisplay}
                     </Text>
                     <Pressable onPress={() => showAttachment({ type: 'file', dataUrl })}>

@@ -173,7 +173,8 @@ const ConversationParticipants = ({ conversationId }) => {
               )}
               <Pressable
                 style={styles.addParticipantsButton}
-                onPress={toggleConversationParticipantsModal}>
+                onPress={toggleConversationParticipantsModal}
+              >
                 <Icon color={colors.text} icon="settings-outline" size={16} />
               </Pressable>
             </View>
@@ -197,7 +198,8 @@ const ConversationParticipants = ({ conversationId }) => {
               ) : (
                 <Pressable
                   style={styles.watchConversationButton}
-                  onPress={() => updateConversationWatchers(currentAgent)}>
+                  onPress={() => updateConversationWatchers(currentAgent)}
+                >
                   <Icon color={colors.primaryColor} icon="arrow-right" size={12} />
                   <Text xs color={colors.primaryColor} style={styles.watchConversationButtonText}>
                     {i18n.t('CONVERSATION_PARTICIPANTS.WATCH_CONVERSATION')}

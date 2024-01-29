@@ -149,7 +149,8 @@ const App = () => {
     <KeyboardAvoidingView
       style={styles.container}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-      enabled>
+      enabled
+    >
       <SafeAreaView style={styles.container}>
         <NavigationContainer
           linking={linking}
@@ -168,7 +169,8 @@ const App = () => {
             // Save the current route name for later comparison
             routeNameRef.current = currentRouteName;
           }}
-          theme={theme}>
+          theme={theme}
+        >
           <BottomSheetModalProvider>
             <Stack.Navigator initialRouteName="Login" screenOptions={{ headerShown: false }}>
               {isLoggedIn ? (

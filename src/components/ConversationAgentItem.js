@@ -142,7 +142,8 @@ const ConversationAgentItem = ({ colors, title, agentsList, activeValue, onClick
                 activeValue.includes(item.id) && styles.bottomSheetItemActive,
               ]}
               key={item.id}
-              onPress={() => onClickAdd(item)}>
+              onPress={() => onClickAdd(item)}
+            >
               <View style={styles.agentDetails}>
                 <UserAvatar
                   thumbnail={item.thumbnail}

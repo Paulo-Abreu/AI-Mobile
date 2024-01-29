@@ -93,7 +93,8 @@ const AvailabilityStatus = ({ status }) => {
           key={item.status}
           onPress={() => {
             changeUserAvailabilityStatus(item.key);
-          }}>
+          }}
+        >
           <View>
             <Icon icon="circle-filled" color={item.color} size={14} />
           </View>

@@ -181,7 +181,8 @@ const ConversationTeams = ({ colors, conversationDetails, closeModal }) => {
                 selectedTeamId === item.id && styles.bottomSheetItemActive,
               ]}
               key={item.id}
-              onPress={() => onClickAssignTeam(item.id)}>
+              onPress={() => onClickAssignTeam(item.id)}
+            >
               <View style={styles.teamDetails}>
                 <UserAvatar userName={item.name} size={24} fontSize={12} />
                 <Text sm medium color={colors.text} style={styles.teamName}>

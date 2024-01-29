@@ -21,7 +21,8 @@ const Pressable = ({ onPress, onLongPress, disabled, children, style: customStyl
       ]}
       disabled={disabled}
       onPress={onPress}
-      onLongPress={onLongPress}>
+      onLongPress={onLongPress}
+    >
       {children}
     </NativePressable>
   );

@@ -75,12 +75,14 @@ const ConversationInboxFilter = ({ colors, activeValue, hasLeftIcon, items, onCh
             ]}
             onPress={() => {
               onChangeFilter(item);
-            }}>
+            }}
+          >
             <View
               style={[
                 styles.iconNameWrapper,
                 { width: activeValue === item.id ? notFullWidth : fullWidth },
-              ]}>
+              ]}
+            >
               {hasLeftIcon && (
                 <View style={styles.iconWrapper}>
                   <Icon icon={iconNameByInboxType(item)} color={colors.text} size={16} />

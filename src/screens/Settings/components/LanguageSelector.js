@@ -61,7 +61,8 @@ const LanguageSelector = ({ activeValue, onPress, colors }) => {
             ]}
             onPress={() => {
               onPress(language);
-            }}>
+            }}
+          >
             <View style={styles.languageView}>
               <Text sm medium color={colors.text}>
                 {LANGUAGES[language]}

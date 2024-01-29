@@ -113,7 +113,8 @@ const SnoozeConversation = ({ colors, conversationId, activeSnoozeValue, closeMo
               styles.bottomSheetItem,
             ]}
             key={item.key}
-            onPress={() => toggleStatusForConversations(item.key)}>
+            onPress={() => toggleStatusForConversations(item.key)}
+          >
             <View style={styles.itemView}>
               <Icon icon={item.icon} color={colors.textDark} size={18} />
               <Text sm medium color={colors.textDark} style={styles.itemText}>

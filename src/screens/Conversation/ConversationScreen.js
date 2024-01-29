@@ -355,7 +355,8 @@ const ConversationScreen = () => {
         <ScrollView
           horizontal
           contentContainerStyle={styles.filterScrollView}
-          showsHorizontalScrollIndicator={false}>
+          showsHorizontalScrollIndicator={false}
+        >
           {hasActiveFilters && (
             <ClearFilterButton count={filtersCount} onSelectItem={clearAppliedFilters} />
           )}

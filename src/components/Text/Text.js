@@ -77,7 +77,8 @@ const Text = ({
         capitalize && styles.capitalize,
         setColor(color),
       ])}
-      {...rest}>
+      {...rest}
+    >
       {children}
     </NativeText>
   );

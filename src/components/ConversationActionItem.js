@@ -78,7 +78,8 @@ const ConversationActionItem = ({
         ]}
         onPress={() => {
           onPressItem({ itemType });
-        }}>
+        }}
+      >
         <View style={styles.sectionTitleView}>
           <Icon icon={iconName} color={colors.textDark} size={16} />
           <Text sm medium color={colors.textDark} style={styles.sectionTitle}>

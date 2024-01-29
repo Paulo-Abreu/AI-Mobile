@@ -34,7 +34,8 @@ const Icon = ({ size, icon, color, viewBox = '0 0 24 24' }) => {
       aria-hidden="true"
       width={size}
       height={size}
-      accessibilityLabel={icon}>
+      accessibilityLabel={icon}
+    >
       <Path key={path} d={path} fill={color} />
     </Svg>
   );

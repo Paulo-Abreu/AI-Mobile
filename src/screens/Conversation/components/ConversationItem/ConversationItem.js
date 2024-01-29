@@ -138,7 +138,8 @@ const ConversationItem = ({ item, conversationTypingUsers, onPress, showAssignee
                 {
                   transform: [{ translateX: trans }],
                 },
-              ]}>
+              ]}
+            >
               <Pressable style={styles.readUnreadMessageSwipeAction}>
                 <Icon color={colors.colorWhite} icon="mail-unread-outline" size={24} />
                 <Text sm semiBold color={colors.colorWhite} style={styles.swipeActionText}>
@@ -154,7 +155,8 @@ const ConversationItem = ({ item, conversationTypingUsers, onPress, showAssignee
                 {
                   transform: [{ translateX: trans }],
                 },
-              ]}>
+              ]}
+            >
               <Pressable style={styles.readUnreadMessageSwipeAction}>
                 <Icon color={colors.colorWhite} icon="mail-outline" size={24} />
                 <Text sm semiBold color={colors.colorWhite} style={styles.swipeActionText}>
@@ -178,7 +180,8 @@ const ConversationItem = ({ item, conversationTypingUsers, onPress, showAssignee
           },
           styles.container,
         ]}
-        onPress={onPress}>
+        onPress={onPress}
+      >
         <View style={styles.itemView}>
           <View style={styles.avatarView}>
             <UserAvatar

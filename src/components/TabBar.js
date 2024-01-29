@@ -83,7 +83,8 @@ const TabStack = () => {
           lineHeight: 13,
           alignSelf: undefined,
         },
-      })}>
+      })}
+    >
       <Tab.Screen name="Conversations" component={HomeStack} />
       <Tab.Screen
         name="Notifications"

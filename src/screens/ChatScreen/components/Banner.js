@@ -104,7 +104,8 @@ const BannerComponent = ({
                   medium
                   color={bannerTextColor()}
                   style={[styles.bannerText, styles.bannerHrefText]}
-                  onPress={onPressOpenURL}>
+                  onPress={onPressOpenURL}
+                >
                   {hrefText}
                 </Text>
               ) : null}

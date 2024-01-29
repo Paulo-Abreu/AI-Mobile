@@ -34,7 +34,8 @@ const ConversationPriority = ({ priority }) => {
 
   return (
     <View
-      style={[styles.priorityItemView, isUrgent && { backgroundColor: colors.dangerColorLight }]}>
+      style={[styles.priorityItemView, isUrgent && { backgroundColor: colors.dangerColorLight }]}
+    >
       <Icon
         icon={`priority-${priorityValue}`}
         viewBox="0 0 14 14"

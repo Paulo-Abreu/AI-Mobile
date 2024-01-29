@@ -78,14 +78,16 @@ const AccountsSelector = ({ accounts, activeValue, onPress, colors }) => {
             ]}
             onPress={() => {
               onPress(account.id);
-            }}>
+            }}
+          >
             <View style={styles.accountDetailsWrapper}>
               <View style={styles.nameIdWrapper}>
                 <Text md semiBold color={colors.textDark}>
                   {account.name}
                 </Text>
                 <View
-                  style={[styles.accountIdWrapper, { backgroundColor: colors.primaryColorLight }]}>
+                  style={[styles.accountIdWrapper, { backgroundColor: colors.primaryColorLight }]}
+                >
                   <Text xs medium color={colors.text} style={styles.accountId}>
                     {`#${account.id}`}
                   </Text>

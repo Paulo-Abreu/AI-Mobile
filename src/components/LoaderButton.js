@@ -136,7 +136,8 @@ const LoaderButton = ({ loading, onPress, text, size, colorScheme, ...customProp
           justifyContent: 'center',
         },
       ]}
-      buttonSize={size}>
+      buttonSize={size}
+    >
       <View style={styles.textLoaderContainer}>
         {loading ? (
           <View>
@@ -150,7 +151,8 @@ const LoaderButton = ({ loading, onPress, text, size, colorScheme, ...customProp
               {
                 ...buttonTextSize(size),
               },
-            ]}>
+            ]}
+          >
             {text}
           </Text>
         )}

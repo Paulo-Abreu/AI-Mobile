@@ -84,7 +84,8 @@ const ChatHeaderLoader = () => {
       easing="ease-out"
       iterationCount="infinite"
       duration={3000}
-      style={styles.container}>
+      style={styles.container}
+    >
       <View style={styles.itemView}>
         <View style={styles.avatarView}>
           <View style={styles.avatarLoader} />

@@ -58,7 +58,8 @@ const CannedResponseComponent = ({ shortCode, content, lastItem, onClick }) => {
   return (
     <Pressable
       style={[styles.itemView, !lastItem && styles.lastItemView]}
-      onPress={() => onClick(content)}>
+      onPress={() => onClick(content)}
+    >
       <Text semiBold sm color={colors.primaryColorDark} style={styles.content}>
         {`${shortCode} - `}
         <Text regular sm color={colors.textDark} style={styles.content}>

@@ -75,7 +75,8 @@ const ConfigureURLScreenComponent = ({ navigation }) => {
     <SafeAreaView
       style={styles.keyboardView}
       behavior={Platform.OS === 'ios' ? 'padding' : undefined}
-      enabled>
+      enabled
+    >
       <Header leftIcon="arrow-chevron-left-outline" onPressLeft={onBackPress} />
       <ScrollView contentContainerStyle={styles.scrollView}>
         <View style={styles.logoView}>

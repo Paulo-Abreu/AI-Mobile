@@ -63,7 +63,8 @@ const ConversationFilter = ({ colors, activeValue, leftIcon, items, onChangeFilt
             ]}
             onPress={() => {
               onChangeFilter(item);
-            }}>
+            }}
+          >
             <View style={styles.iconNameWrapper}>
               {leftIcon && (
                 <View style={styles.iconWrapper}>

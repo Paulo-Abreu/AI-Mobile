@@ -51,7 +51,8 @@ const FilterButton = ({ label, onPress, isActive, hasLeftIcon, leftIconName }) =
         },
         styles.container,
       ]}
-      onPress={onPress}>
+      onPress={onPress}
+    >
       {hasLeftIcon && (
         <View style={styles.icon}>
           <Icon color={colors.textLight} icon={leftIconName} size={14} />

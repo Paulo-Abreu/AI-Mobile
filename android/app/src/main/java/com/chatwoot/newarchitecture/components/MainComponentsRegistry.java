@@ -1,4 +1,4 @@
-package com.chatwoot.app.newarchitecture.components;
+package com.nextcomm.atendimentointegrado.newarchitecture.components;
 
 import com.facebook.jni.HybridData;
 import com.facebook.proguard.annotations.DoNotStrip;
