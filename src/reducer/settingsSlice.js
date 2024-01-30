@@ -21,9 +21,9 @@ export const actions = {
         await axios.get(`${INSTALLATION_URL}api`);
         RootNavigation.navigate('Login');
         return {
-          installationUrl: INSTALLATION_URL,
           webSocketUrl: WEB_SOCKET_URL,
-          baseUrl: installationUrl,
+          baseUrl: 'nextchat.atendimentointegrado.com',
+          installationUrl: 'https://nextchat.atendimentointegrado.com/'
         };
       } catch (error) {
         showToast({ message: I18n.t('CONFIGURE_URL.ERROR') });
@@ -62,14 +62,14 @@ export const actions = {
 export const settingsSlice = createSlice({
   name: 'settings',
   initialState: settingAdapter.getInitialState({
-    baseUrl: 'app.chatwoot.com',
-    installationUrl: 'https://app.chatwoot.com/',
+    baseUrl: 'nextchat.atendimentointegrado.com',
+    installationUrl: 'https://nextchat.atendimentointegrado.com/',
     isLocaleSet: false,
     isSettingUrl: false,
     isUpdating: false,
     localeValue: 'en',
     notification: {},
-    webSocketUrl: 'wss://app.chatwoot.com/cable',
+    webSocketUrl: 'wss://nextchat.atendimentointegrado.com/cable',
   }),
   reducers: {
     resetSettings: state => {

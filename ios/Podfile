@@ -25,7 +25,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'Chatwoot' do
+target 'AI' do
   pod 'FirebaseCore', :modular_headers => true
   pod 'GoogleUtilities', :modular_headers => true;
   config = use_native_modules!
@@ -47,7 +47,7 @@ target 'Chatwoot' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'ChatwootTests' do
+  target 'AITests' do
     inherit! :complete
     # Pods for testing
   end

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-               BuildableName = "Chatwoot.app"
-               BlueprintName = "Chatwoot"
-               ReferencedContainer = "container:Chatwoot.xcodeproj">
+               BuildableName = "AI.app"
+               BlueprintName = "AI"
+               ReferencedContainer = "container:AI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "00E356ED1AD99517003FC87E"
-               BuildableName = "ChatwootTests.xctest"
-               BlueprintName = "ChatwootTests"
-               ReferencedContainer = "container:Chatwoot.xcodeproj">
+               BuildableName = "AITests.xctest"
+               BlueprintName = "AITests"
+               ReferencedContainer = "container:AI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -55,9 +55,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Chatwoot.app"
-            BlueprintName = "Chatwoot"
-            ReferencedContainer = "container:Chatwoot.xcodeproj">
+            BuildableName = "AI.app"
+            BlueprintName = "AI"
+            ReferencedContainer = "container:AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -72,9 +72,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "13B07F861A680F5B00A75B9A"
-            BuildableName = "Chatwoot.app"
-            BlueprintName = "Chatwoot"
-            ReferencedContainer = "container:Chatwoot.xcodeproj">
+            BuildableName = "AI.app"
+            BlueprintName = "AI"
+            ReferencedContainer = "container:AI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

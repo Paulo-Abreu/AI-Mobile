@@ -298,7 +298,7 @@ const SettingsScreen = () => {
           </View>
           <View style={styles.appDescriptionView}>
             <Text color={colors.textLight} xs medium style={styles.appDescriptionText}>
-              {`Version ${packageFile.version}`}
+              {`By NextVoice`}
             </Text>
           </View>
         </View>
