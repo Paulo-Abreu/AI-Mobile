@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "321295332365",
+    "project_id": "chatwoot-mobile-92b03",
+    "storage_bucket": "chatwoot-mobile-92b03.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:321295332365:android:99f700a5fd21aa9d01d144",
+        "android_client_info": {
+          "package_name": "com.nextcomm.atendimentointegrado"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc7CkKlmFcnbgsic2hRHvSOuHdfMzy6xc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
